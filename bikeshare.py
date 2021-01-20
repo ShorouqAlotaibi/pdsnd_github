@@ -154,7 +154,7 @@ def user_stats(df):
 
     # TO DO: Display earliest, most recent, and most common year of birth
     if 'Gender' not in df and 'Birth Year' not in df:
-        print("This city doesn't have Gender or Birth Year")
+        print("Gender or Birth Year is not included")
     else:
         print(f"Earliest birthdates is {df['Birth Year'].min()}")
         print(f"Most recent birthdates is {df['Birth Year'].max()}")
